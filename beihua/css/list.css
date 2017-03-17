@@ -1,0 +1,125 @@
+.container .side_nav{
+	width:20%;
+	float:left;
+	margin-top:15px;
+	text-align:center;
+	border-radius: 5px;
+	font-family: "幼圆";
+	padding:8px 10px;
+}
+
+.side_nav h2{
+	font-weight: bold;
+	color:#004A9D;
+	font-size:18px;
+	line-height: 2;
+	text-align: left;
+	text-indent: 10px;
+}
+.side_nav h3{
+	margin:0 auto;
+	background: url(../img/slide_bg.png) no-repeat;
+	background:linear-gradient(to right,#4DBCF4 0%,#004A9D 40%);
+	font-size: 15px;
+	line-height: 2.5;
+	margin:5px 0;
+	border-radius: 20px;
+	
+}
+.side_nav h3 a{
+	display: block;
+	color:#eee;
+}
+.container .list_article{
+	float: right;
+	width:75%;
+	min-height: 300px;
+	margin-top:20px;
+}
+.list_article .list_header{
+	color:#004A9D;
+	font-size:20px;
+	font-weight: bold;
+	font-family: "幼圆";
+}
+.list_header p{
+	overflow:hidden;
+}
+.list_header h3{
+	display: inline;
+	font-size:inherit;
+	vertical-align:  bottom;
+}
+.list_header .name_pinying{
+	font-size:14px;
+	vertical-align: bottom;
+}
+.list_header .location{
+	font-family: "宋体";
+	font-weight: normal;
+	float:right;
+	font-size:12px;
+	color:#333;
+	vertical-align:bottom;
+}
+
+.list_content{
+	line-height: 2;
+}
+.list_article .list_text{
+	margin:15px 0 0 0;
+	font-size:12px;
+	height: 396px;
+	width: 100%;
+}
+.list_article .list_text ul{
+	height: 396px;
+}
+
+.list_article .list_text li{
+	height: 33px;
+	line-height: 33px;
+	width: 100%;
+	border-bottom:1px dashed #444;
+}
+
+.list_text a{
+	display: block;
+	float: left;
+	width: 80%;
+	color:#444;
+	text-align: left;
+	margin-right:70px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+.list_text a:hover{
+	color:#004A9D;
+}
+.list_article  .list_text li .text_tip{
+	display:block;
+	float:left;
+	padding:0 5px 0 0;
+	color:#004A9D;
+	font-size: 16px;
+}
+
+
+
+
+
+
+.list_article .list_footer{
+	margin:10px 0 0 0;
+	text-align:right;
+}
+.list_footer .prev,.list_footer .next{
+	border:none;
+	background:transparent;
+	outline:0;
+	cursor: pointer;
+}
+.list_footer .thispage em,.list_footer .total em{
+	font-style:normal;
+}

@@ -1,0 +1,26 @@
+.container .text{
+	margin:15px 0 0 0;
+}
+.text_header{
+	text-align: center;
+	
+}
+.text_header h2{
+	line-height: 2;
+	border-bottom:3px solid #004A9D;
+	font-size: 22px;
+}
+.text_header p{
+	font-size: 12px;
+	line-height: 1.5;
+	text-align: center;
+	margin:5px 0 0 0;
+	color:#666;
+}
+.text_content{
+	font-size: 16px;
+	line-height: 1.5;
+	white-space: pre-wrap;
+	*white-space: pre;
+	*word-wrap: break-word;
+}
